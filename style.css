@@ -65,23 +65,20 @@ nav {
 /* Container */
 .container {
   display: flex;
-  flex-direction: column;
-  align-items: center; /* cards centered horizontally */
-  padding: 20px;
+  flex-wrap: wrap;          /* allows multiple rows */
+  justify-content: center;  /* center the row */
   gap: 20px;
+  padding: 20px;
 }
 
 
 /* Cards */
 .card {
-  display: flex;
-  flex-direction: column; /* stack image and text vertically */
-  align-items: center;
-  width: 300px; /* fixed card width */
+  width: 250px;   /* fixed width so they sit side-by-side */
   background: white;
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
 }
 
 
