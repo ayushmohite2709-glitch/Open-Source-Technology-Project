@@ -1,71 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Blog</title>
-    <style>
-        body {
-            font-family: Arial;
-            margin: 0;
-            background: #f4f4f4;
-        }
-        header {
-            background: #222;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        nav {
-            background: #555;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 10px;
-            text-decoration: none;
-        }
-        .container {
-            padding: 20px;
-        }
-        .card {
-            background: white;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 5px;
-        }
-    </style>
+  <title>My Blog</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Ayush's Blog</h1>
-    <p>Welcome to my personal website</p>
-</header>
-
 <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Projects</a>
+  <h2 class="logo">MY BLOG</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </nav>
 
-<div class="container">
+<header class="hero">
+  <h1>Welcome to My Blog</h1>
+  <p>Explore articles, ideas and projects</p>
+</header>
 
-    <div class="card">
-        <h2>About Me</h2>
-        <p>I am a diploma student learning programming and web development.</p>
-    </div>
+<section class="container">
+  <div class="card">
+    <img src="web.jpg.jpeg">
+    <h3>Web Design</h3>
+    <p>Learn basics of HTML, CSS and modern UI design.</p>
+    <button>Read More</button>
+  </div>
+  <div class="card">
+    <img src="programming.jpg.jpeg">
+    <h3>Programming</h3>
+    <p>Explore coding tutorials and examples.</p>
+    <button>Read More</button>
+  </div>
 
-    <div class="card">
-        <h2>My First Blog</h2>
-        <p>This is my first blog post hosted on GitHub!</p>
-    </div>
+  <div class="card">
+    <img src="project.jpg.jpeg">
+    <h3>Projects</h3>
+    <p>Check out creative student projects.</p>
+    <button>Read More</button>
+  </div>
 
-    <div class="card">
-        <h2>My Project</h2>
-        <p>I created a website using HTML and hosted it online.</p>
-    </div>
+   <div class="card">
+    <img src="new.jpg">
+    <h3>Latest Posts</h3>
+    <p>Check out our latest posts.</p>
+    <button>Read More</button>
+  </div>
+</section>
 
-</div>
+<footer>
+  <p>© 2026 My Blog | Follow us</p>
+</footer>
 
 </body>
 </html>

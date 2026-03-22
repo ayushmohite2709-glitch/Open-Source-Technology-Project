@@ -1,0 +1,251 @@
+
+
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f4f4;
+
+  display: flex;          
+  flex-direction: column; 
+  min-height: 50vh;      
+}
+
+.container {
+  flex: 1;  /* ✅ ADD THIS */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  padding: 15px;
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00d4ff;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(to right, #00d4ff, #090979);
+  color: white;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.nav-links a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+/* Search */
+.search-box {
+  text-align: center;
+  margin: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 50%;
+}
+
+/* Blog Layout */
+.container{
+background-color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Blog Card */
+.card {
+  width: 250px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Button */
+button {
+  background: blue;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-btn {
+  margin: 20px;
+  padding: 10px 20px;
+}
+
+
+
+button {
+  padding: 10px;
+  border: none;
+  background: #00d4ff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #090979;
+  color: white;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width:300px;
+}
+
+.about, .contact {
+  background-color: beige;
+  margin:10px;
+  padding: 5px;
+  text-align: left;
+}
+/* Title */
+.title {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Filters */
+.filters {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filters button {
+  margin: 5px;
+  padding: 8px 15px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+/* Gallery Layout */
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Cards */
+.card {
+  text-align: center;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+/* Hover Effect */
+.card img:hover {
+  transform: scale(1.1);
+}
+
+/* Upload Button */
+.upload {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Lightbox effect (optional feel) */
+.card p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+form input, form textarea {
+  margin: 10px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1px;
+  background: #333;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
