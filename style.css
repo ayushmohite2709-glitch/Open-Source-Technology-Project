@@ -67,7 +67,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 20px 40px;
+  padding: 20px 60px;
   gap: 20px;
 }
 
